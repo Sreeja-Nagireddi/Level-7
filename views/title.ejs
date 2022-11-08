@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>Result Page</title>
+        <meta charset = "utf-8">
+        <meta name = "viewport"content = "width = device-width,initial-scale = 1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    </head>
+    <body style = "background-image: url(https://images.vexels.com/media/users/3/76625/preview/0a9ec07890cae65e32fad41107cb648b-white-seamless-background.jpg);background-size: cover;">
+        <div class = "row">
+            <div class = "col-1">
+                <img style = "padding-left:250px;padding-top: 75px;"src = "https://previews.123rf.com/images/art4sale/art4sale1705/art4sale170500066/77770394-man-showing-thumb-up-and-pointing-something-beside-of-him-full-length-portrait-of-cartoon-man-in-red.jpg"height = 600px width = 700px>
+            </div>
+            <div class = "col-11">
+                <div class="text-center" style="color: black; border-radius:25px; padding-top: 75px;margin-top: auto;">
+                    <h3>is_valid : <i><%= is_valid%></i></h3>
+                    <h3> country : <i><%= country%></i></h3>
+                    <h3>country_code : <i><%= country_code%></i></h3>
+                    <h3>region_code : <i><%= region_code%></i></h3>
+                    <h3>region : <i><%= region%></i></h3>
+                    <h3>city : <i><%= city%></i></h3>
+                    <h3>zip : <i><%= zip%></i></h3>
+                    <h3>lat : <i><%= lat%></i></h3>
+                    <h3>lon : <i><%= lon%></i></h3>
+                    <h3>timezone : <i><%= timezone%></i></h3>
+                    <h3>isp : <i><%= isp%></i></h3>
+                    <h3>url : <i><%= url%></i></h3>
+                </div>   
+            </div>
+        </div>
+    </body>
+</html>
